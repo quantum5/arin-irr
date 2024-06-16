@@ -1,0 +1,80 @@
+aut-num:        AS200351
+as-name:        DQN-AS-ANYCAST
+descr:          Dynamic Quantum Networks
+descr:          https://as200351.net
+descr:          https://quantum5.ca
+remarks:        +-------------------------------------------------------------+
+remarks:        |     ____                              _                     |
+remarks:        |    / __ \__  ______  ____ _____ ___  (_)____                |
+remarks:        |   / / / / / / / __ \/ __ `/ __ `__ \/ / ___/                |
+remarks:        |  / /_/ / /_/ / / / / /_/ / / / / / / / /__                  |
+remarks:        | /_____/\__, /_/ /_/\__,_/_/ /_/ /_/_/\___/                  |
+remarks:        |       /____/     ____                    __                 |
+remarks:        |                 / __ \__  ______ _____  / /___  ______ ___  |
+remarks:        |                / / / / / / / __ `/ __ \/ __/ / / / __ `__ \ |
+remarks:        |               / /_/ / /_/ / /_/ / / / / /_/ /_/ / / / / / / |
+remarks:        |               \___\_\__,_/\__,_/_/ /_/\__/\__,_/_/ /_/ /_/  |
+remarks:        |            _   __     __                      __            |
+remarks:        |           / | / /__  / /__      ______  _____/ /_______     |
+remarks:        |          /  |/ / _ \/ __/ | /| / / __ \/ ___/ //_/ ___/     |
+remarks:        |         / /|  /  __/ /_ | |/ |/ / /_/ / /  / ,< (__  )      |
+remarks:        |        /_/ |_/\___/\__/ |__/|__/\____/_/  /_/|_/____/       |
+remarks:        |                                                             |
+remarks:        +-------------------------------------------------------------+
+remarks:
+remarks:        ===================== ROUTING INFORMATION =====================
+remarks:        ====== upstreams ======
+import:         from AS200351:as-upstreams accept ANY
+mp-import:      afi any.unicast from AS200351:as-upstreams accept ANY
+export:         to AS200351:as-upstreams announce AS200351:as-all
+mp-export:      afi any.unicast to AS200351:as-upstreams announce AS200351:as-all
+remarks:
+remarks:        ====== IXP: ONIX ======
+remarks:        * IPv4: 149.112.50.51
+remarks:        * IPv6: 2001:504:125:e1::51
+import:         from AS57369 accept AS57369:AS-ONIX
+mp-import:      afi any.unicast from AS57369 accept AS57369:AS-ONIX
+export:         to AS57369 announce AS200351:as-all
+mp-export:      afi any.unicast to AS57369 announce AS200351:as-all
+remarks:
+remarks:        ===== IXP: FogIXP =====
+remarks:        * IPv4: 185.1.147.210
+remarks:        * IPv6: 2001:7f8:ca:1:0:20:0351:1
+import:         from AS47498 accept AS-FOGIXP
+mp-import:      afi any.unicast from AS47498 accept AS-FOGIXP
+export:         to AS47498 announce AS200351:as-all
+mp-export:      afi any.unicast to AS47498 announce AS200351:as-all
+remarks:
+remarks:        ===== IXP: AccurIX ====
+remarks:        * IPv4: 149.112.74.8
+remarks:        * IPv6: 2001:504:132::8
+import:         from AS57194 accept AS57194:as-accurix-members
+mp-import:      afi any.unicast from AS57194 accept AS57194:as-accurix-members
+export:         to AS57194 announce AS200351:as-all
+mp-export:      afi any.unicast to AS57194 announce AS200351:as-all
+remarks:
+remarks:        ===== IXP: FrysIX =====
+remarks:        * IPv4: 185.1.203.229
+remarks:        * IPv6: 2001:7f8:10f::3:e9f:229
+import:         from AS56393 accept AS-FRYS-IX-CONNECTED
+mp-import:      afi any.unicast from AS56393 accept AS-FRYS-IX-CONNECTED
+export:         to AS56393 announce AS200351:as-all
+mp-export:      afi any.unicast to AS56393 announce AS200351:as-all
+remarks:
+remarks:        ====== IXP: KCIX ======
+remarks:        * IPv4: 206.51.7.216
+remarks:        * IPv6: 2001:504:1b:1::216
+remarks:
+remarks:        ===== IXP: STLIX ======
+remarks:        * IPv4: 206.83.12.70
+remarks:        * IPv6: 2001:504:98::70
+remarks:
+remarks:        ===== IXP: HOUIX ======
+remarks:        * IPv4: 206.83.136.41
+remarks:        * IPv6: 2001:504:9E::41
+remarks:
+remarks:        ==================== OWNERSHIP INFORMATION ====================
+admin-c:        DQNA-ARIN
+tech-c:         DQNOC-ARIN
+mnt-by:         MNT-GC-1348
+source:         ARIN
