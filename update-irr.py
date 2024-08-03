@@ -36,7 +36,7 @@ class AsSetResource(BaseResource):
         super().__init__(name, rpsl)
 
     def validate(self):
-        if not re.match(f'^as-set:\s+{re.escape(self.name)}$', self.rpsl, re.M):
+        if not re.match(fr'^as-set:\s+{re.escape(self.name)}$', self.rpsl, re.M):
             raise ValueError(f'Expected aut-num: {self.name} in RPSL')
 
     def get_create_url(self):
@@ -52,7 +52,7 @@ class AutNumResource(BaseResource):
         super().__init__(name, rpsl)
 
     def validate(self):
-        if not re.match(f'^aut-num:\s+{re.escape(self.name)}$', self.rpsl, re.M):
+        if not re.match(fr'^aut-num:\s+{re.escape(self.name)}$', self.rpsl, re.M):
             raise ValueError(f'Expected aut-num: {self.name} in RPSL')
 
     def get_create_url(self):
@@ -63,9 +63,9 @@ class AutNumResource(BaseResource):
 
 
 def get_resource(path, rpsl):
-    if (m := re.match('^(AS\d+)\.rpsl$', path)):
+    if (m := re.match(r'^(AS\d+)\.rpsl$', path)):
         return AutNumResource(m.group(1), rpsl)
-    elif (m := re.match('^((?:AS\d+@)?(AS-[A-Z0-9-]+@)*AS-[A-Z0-9-]+)\.rpsl$', path)):
+    elif (m := re.match(r'^((?:AS\d+@)?(AS-[A-Z0-9-]+@)*AS-[A-Z0-9-]+)\.rpsl$', path)):
         return AsSetResource(m.group(1).replace('@', ':'), rpsl)
 
 
