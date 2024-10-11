@@ -1,0 +1,15 @@
+as-set:         AS54148:AS-UPSTREAMS
+descr:          AS54148's Upstreams
+remarks:        ==== GoCodeIT / Xenyth =====
+members:        AS835
+remarks:        ==== Hurricane Electric ====
+members:        AS6939
+remarks:        ======== iFog GmbH =========
+members:        AS34927
+remarks:        ========= HyeHost ==========
+members:        AS47272
+remarks:        ============================
+admin-c:        DQNA-ARIN
+tech-c:         DQNOC-ARIN
+mnt-by:         MNT-GC-1348
+source:         ARIN
