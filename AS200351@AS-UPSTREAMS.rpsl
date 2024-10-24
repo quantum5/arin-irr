@@ -1,35 +1,13 @@
 as-set:         AS200351:AS-UPSTREAMS
 descr:          AS200351's Upstreams
-remarks:        ==== Frantech Solutions ====
-members:        AS53667
-remarks:        ===== Constant / Vultr =====
-members:        AS20473
-remarks:        ===== Cloudie Networks =====
-members:        AS924
-remarks:        === Accuris Technologies ===
-members:        AS52210
-remarks:        ==== Hurricane Electric ====
-members:        AS6939
 remarks:        ======== iFog GmbH =========
-members:        AS34927, AS209533
-remarks:        ======= FreeTransit ========
-members:        AS41051
-remarks:        === F4 Networks / Rozint ===
-members:        AS21738, AS25759
-remarks:        ========== Suble ===========
-members:        AS199545
+members:        AS34927
 remarks:        ======== Tschajera =========
 members:        AS209022
 remarks:        ========= HyeHost ==========
 members:        AS47272
-remarks:        ========= Diederik =========
-members:        AS50917
-remarks:        ==== Snaju / DartNode ======
-members:        AS399646
 remarks:        ===== Jon Arve Vanvik ======
 members:        AS210475
-remarks:        ========= FlowVPS ==========
-members:        AS37988
 remarks:        ============================
 admin-c:        DQNA-ARIN
 tech-c:         DQNOC-ARIN

@@ -2,12 +2,24 @@ as-set:         AS54148:AS-UPSTREAMS
 descr:          AS54148's Upstreams
 remarks:        ==== GoCodeIT / Xenyth =====
 members:        AS835
+remarks:        ===== Cloudie Networks =====
+members:        AS924
 remarks:        ==== Hurricane Electric ====
 members:        AS6939
+remarks:        ===== Constant / Vultr =====
+members:        AS20473
+remarks:        === F4 Networks / Rozint ===
+members:        AS21738
 remarks:        ======== iFog GmbH =========
 members:        AS34927
+remarks:        ========= FlowVPS ==========
+members:        AS37988
 remarks:        ========= HyeHost ==========
 members:        AS47272
+remarks:        ===== Backbone Direct ======
+members:        AS50917
+remarks:        ==== Frantech Solutions ====
+members:        AS53667
 remarks:        ============================
 admin-c:        DQNA-ARIN
 tech-c:         DQNOC-ARIN
