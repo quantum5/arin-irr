@@ -20,6 +20,10 @@ remarks:        ===== Backbone Direct ======
 members:        AS50917
 remarks:        ==== Frantech Solutions ====
 members:        AS53667
+remarks:        == Inferno Communications ==
+members:        AS207841
+remarks:        ====== Lagrange Cloud ======
+members:        AS209735
 remarks:        ============================
 admin-c:        DQNA-ARIN
 tech-c:         DQNOC-ARIN
