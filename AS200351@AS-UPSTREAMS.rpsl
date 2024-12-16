@@ -1,9 +1,5 @@
 as-set:         AS200351:AS-UPSTREAMS
 descr:          AS200351's Upstreams
-remarks:        ======== iFog GmbH =========
-members:        AS34927
-remarks:        ======== Tschajera =========
-members:        AS209022
 remarks:        ========= HyeHost ==========
 members:        AS47272
 remarks:        ===== Jon Arve Vanvik ======
