@@ -18,14 +18,16 @@ remarks:        ========= FlowVPS ==========
 members:        AS37988
 remarks:        ========= HyeHost ==========
 members:        AS47272
-remarks:        ===== Backbone Direct ======
-members:        AS50917
+remarks:        ==== Asymptote Network =====
+members:        AS53616
 remarks:        ==== Frantech Solutions ====
 members:        AS53667
 remarks:        == Inferno Communications ==
 members:        AS207841
 remarks:        ====== Lagrange Cloud ======
 members:        AS209735
+remarks:        ========== Ryamer ==========
+members:        AS400587
 remarks:        ============================
 admin-c:        DQNA-ARIN
 tech-c:         DQNOC-ARIN
