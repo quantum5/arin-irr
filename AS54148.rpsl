@@ -57,6 +57,14 @@ remarks:        ===== IXP: HOUIX ======
 remarks:        * IPv4: 206.83.136.41
 remarks:        * IPv6: 2001:504:9e::41
 remarks:
+remarks:        ===== IXP: FrysIX =====
+remarks:        * IPv4: 185.1.160.229
+remarks:        * IPv6: 2001:7f8:10f::d384:229
+remarks:
+remarks:        ===== IXP: FogIXP =====
+remarks:        * IPv4: 185.1.147.210
+remarks:        * IPv6: 2001:7f8:ca:1:0:5:4148:1
+remarks:
 remarks:        ====== IXP: F4IX ======
 remarks:        * IPv4: 149.112.75.17
 remarks:        * IPv6: 2602:fa3d:f4:1::17
