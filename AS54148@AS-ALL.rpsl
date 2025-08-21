@@ -1,0 +1,13 @@
+as-set:         AS54148:AS-ALL
+descr:          AS54148 and all downstreams.
+remarks:		===== Dynamic Quantum Networks =====
+members:        AS54148
+members:        AS200351
+remarks:
+remarks:		============ Downstreams ===========
+members:		AS-PUDUALL
+remarks:
+admin-c:        DQNA-ARIN
+tech-c:         DQNOC-ARIN
+mnt-by:         MNT-GC-1348
+source:         ARIN
