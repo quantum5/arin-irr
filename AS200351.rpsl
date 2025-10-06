@@ -24,34 +24,10 @@ remarks:        +-------------------------------------------------------------+
 remarks:
 remarks:        ===================== ROUTING INFORMATION =====================
 remarks:        ====== upstreams ======
-import:         from AS200351:as-upstreams accept ANY
-mp-import:      afi any.unicast from AS200351:as-upstreams accept ANY
-export:         to AS200351:as-upstreams announce AS200351:as-all
-mp-export:      afi any.unicast to AS200351:as-upstreams announce AS200351:as-all
-remarks:
-remarks:        ===== IXP: FogIXP =====
-remarks:        * IPv4: 185.1.147.210
-remarks:        * IPv6: 2001:7f8:ca:1:0:20:0351:1
-import:         from AS47498 accept AS-FOGIXP
-mp-import:      afi any.unicast from AS47498 accept AS-FOGIXP
-export:         to AS47498 announce AS200351:as-all
-mp-export:      afi any.unicast to AS47498 announce AS200351:as-all
-remarks:
-remarks:        ===== IXP: AccurIX ====
-remarks:        * IPv4: 149.112.74.8
-remarks:        * IPv6: 2001:504:132::8
-import:         from AS57194 accept AS57194:as-accurix-members
-mp-import:      afi any.unicast from AS57194 accept AS57194:as-accurix-members
-export:         to AS57194 announce AS200351:as-all
-mp-export:      afi any.unicast to AS57194 announce AS200351:as-all
-remarks:
-remarks:        ===== IXP: FrysIX =====
-remarks:        * IPv4: 185.1.203.229
-remarks:        * IPv6: 2001:7f8:10f::3:e9f:229
-import:         from AS56393 accept AS-FRYS-IX-CONNECTED
-mp-import:      afi any.unicast from AS56393 accept AS-FRYS-IX-CONNECTED
-export:         to AS56393 announce AS200351:as-all
-mp-export:      afi any.unicast to AS56393 announce AS200351:as-all
+import:         from AS54148 accept ANY
+mp-import:      afi any.unicast from AS54148 accept ANY
+export:         to AS54148 announce AS200351:as-all
+mp-export:      afi any.unicast to AS54148 announce AS200351:as-all
 remarks:
 remarks:        ==================== OWNERSHIP INFORMATION ====================
 admin-c:        DQNA-ARIN

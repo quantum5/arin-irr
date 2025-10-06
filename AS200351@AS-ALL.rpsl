@@ -1,11 +1,7 @@
-as-set:         AS54148:AS-ALL
-descr:          AS54148 and all downstreams.
+as-set:         AS200351:AS-ALL
+descr:          AS200351 and all downstreams.
 remarks:        ===== Dynamic Quantum Networks =====
-members:        AS54148
 members:        AS200351
-remarks:
-remarks:        ============ Downstreams ===========
-members:        AS-PUDUALL
 remarks:
 admin-c:        DQNA-ARIN
 tech-c:         DQNOC-ARIN
