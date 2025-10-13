@@ -1,6 +1,6 @@
 aut-num:        AS200351
-as-name:        DQN-AS-ANYCAST
-descr:          Dynamic Quantum Networks
+as-name:        DQN-AS-TESTING
+descr:          Dynamic Quantum Networks (Testing)
 descr:          https://as200351.net
 descr:          https://quantum5.ca
 remarks:        +-------------------------------------------------------------+
