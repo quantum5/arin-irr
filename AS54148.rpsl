@@ -37,6 +37,22 @@ mp-import:      afi any.unicast from AS57369 accept AS-ONIX
 export:         to AS57369 announce AS54148:AS-ALL
 mp-export:      afi any.unicast to AS57369 announce AS54148:AS-ALL
 remarks:
+remarks:        ===== IXP: AMS-IX =====
+remarks:        * IPv4: 80.249.211.147
+remarks:        * IPv6: 2001:7f8:1::a505:4148:1
+import:         from AS6777 accept AS6777:AS-AMS-IX-RS
+mp-import:      afi any.unicast from AS6777 accept AS6777:AS-AMS-IX-RS
+export:         to AS6777 announce AS54148:AS-ALL
+mp-export:      afi any.unicast to AS6777 announce AS54148:AS-ALL
+remarks:
+remarks:        ===== IXP: FrysIX =====
+remarks:        * IPv4: 185.1.160.229
+remarks:        * IPv6: 2001:7f8:10f::d384:229
+import:         from AS56393 accept AS-FRYS-IX-CONNECTED
+mp-import:      afi any.unicast from AS56393 accept AS-FRYS-IX-CONNECTED
+export:         to AS56393 announce AS54148:AS-ALL
+mp-export:      afi any.unicast to AS56393 announce AS54148:AS-ALL
+remarks:
 remarks:        ===== IXP: FREMIX =====
 remarks:        * IPv4: 149.112.29.55
 remarks:        * IPv6: 2001:504:125:e0::55
@@ -44,6 +60,26 @@ import:         from AS60438 accept AS-FREMIX
 mp-import:      afi any.unicast from AS60438 accept AS-FREMIX
 export:         to AS60438 announce AS54148:AS-ALL
 mp-export:      afi any.unicast to AS60438 announce AS54148:AS-ALL
+remarks:
+remarks:        ====== IXP: NVIX ======
+remarks:        * IPv4: 149.112.60.31
+remarks:        * IPv6: 2001:504:125:e2::31
+import:         from AS62768 accept AS-NVIX
+mp-import:      afi any.unicast from AS62768 accept AS-NVIX
+export:         to AS62768 announce AS54148:AS-ALL
+mp-export:      afi any.unicast to AS62768 announce AS54148:AS-ALL
+remarks:
+remarks:        = IXP: FogIXP Europe ==
+remarks:        * IPv4: 185.1.147.210
+remarks:        * IPv6: 2001:7f8:ca:1:0:5:4148:1
+import:         from AS47498 accept AS-FOGIXP
+mp-import:      afi any.unicast from AS47498 accept AS-FOGIXP
+export:         to AS47498 announce AS54148:AS-ALL
+mp-export:      afi any.unicast to AS47498 announce AS54148:AS-ALL
+remarks:
+remarks:        === IXP: FogIXP AMS ===
+remarks:        * IPv4: 194.153.153.89
+remarks:        * IPv6: 2001:7f8:16c:1:0:5:4148:1
 remarks:
 remarks:        ====== IXP: KCIX ======
 remarks:        * IPv4: 206.51.7.216
@@ -56,14 +92,6 @@ remarks:
 remarks:        ===== IXP: HOUIX ======
 remarks:        * IPv4: 206.83.136.41
 remarks:        * IPv6: 2001:504:9e::41
-remarks:
-remarks:        ===== IXP: FrysIX =====
-remarks:        * IPv4: 185.1.160.229
-remarks:        * IPv6: 2001:7f8:10f::d384:229
-remarks:
-remarks:        ===== IXP: FogIXP =====
-remarks:        * IPv4: 185.1.147.210
-remarks:        * IPv6: 2001:7f8:ca:1:0:5:4148:1
 remarks:
 remarks:        ====== IXP: F4IX ======
 remarks:        * IPv4: 149.112.75.17
